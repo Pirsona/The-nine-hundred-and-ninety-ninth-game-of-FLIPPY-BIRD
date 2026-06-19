@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="64e1c2dc-107f-4e6b-af2e-b4827b37b8d8" name="Changes" comment="" />
+    <list default="true" id="64e1c2dc-107f-4e6b-af2e-b4827b37b8d8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The nine hundred and ninety-ninth game of FLIPPY BIRD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The nine hundred and ninety-ninth game of FLIPPY BIRD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/placeAnim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/placeAnim.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Cat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Cat.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +26,9 @@
       <entry key="_E:/un/The nine hundred and ninety-ninth game of FLIPPY BIRD" value="3F7YAMB2RgeZs4Db9Lt4NKIMDsH" />
     </persistenceIdMap>
   </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="2" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -19,34 +36,135 @@
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3,
-  "fromUser": false
-}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.760011159211328" />
+      <entry key="MS500" value="4.022493453904502" />
+      <entry key="S2" value="8.706721603986866" />
+      <entry key="S5" value="12.368184565186382" />
+      <entry key="S10" value="14.353205553346958" />
+      <entry key="S30" value="16.02804206717402" />
+      <entry key="S60" value="16.50161888844509" />
+      <entry key="M2" value="16.77891313879793" />
+      <entry key="M5" value="18.816344810840036" />
+      <entry key="M10" value="25.65945824796944" />
+      <entry key="M15" value="33.549467196175435" />
+      <entry key="M30" value="62.04349746505909" />
+      <entry key="H1" value="141.87759363439204" />
+      <entry key="H2" value="295.00382925401317" />
+      <entry key="H4" value="470.47898341433506" />
+      <entry key="D1" value="731.1658357865492" />
+      <entry key="W1" value="792.2332483169963" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.899714742385223E-156" />
+      <entry key="S5" value="5.14606650126697E-63" />
+      <entry key="S10" value="7.177169370162044E-32" />
+      <entry key="S30" value="5.023760892883429E-11" />
+      <entry key="S60" value="1.2935546332370493E-5" />
+      <entry key="M2" value="0.00821723473732258" />
+      <entry key="M5" value="0.4471578481774365" />
+      <entry key="M10" value="2.121620668786909" />
+      <entry key="M15" value="4.209132247878213" />
+      <entry key="M30" value="11.929246457135752" />
+      <entry key="H1" value="32.419605948675866" />
+      <entry key="H2" value="70.58329495708604" />
+      <entry key="H4" value="114.15888518357082" />
+      <entry key="D1" value="179.06909459143438" />
+      <entry key="W1" value="194.31127465167876" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.6294737451487635" />
+      <entry key="MS500" value="3.9552553028151234" />
+      <entry key="S2" value="8.52118762873406" />
+      <entry key="S5" value="12.17356634496318" />
+      <entry key="S10" value="14.214988627218249" />
+      <entry key="S30" value="15.969352118123263" />
+      <entry key="S60" value="16.470424050643178" />
+      <entry key="M2" value="16.770924793162177" />
+      <entry key="M5" value="19.25447756283408" />
+      <entry key="M10" value="27.771814491193286" />
+      <entry key="M15" value="37.747547873841285" />
+      <entry key="M30" value="73.9553701102706" />
+      <entry key="H1" value="174.27172807529402" />
+      <entry key="H2" value="365.5589181412716" />
+      <entry key="H4" value="584.6150026220172" />
+      <entry key="D1" value="910.2289571758382" />
+      <entry key="W1" value="986.543597379315" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3F7YAMB2RgeZs4Db9Lt4NKIMDsH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "SceneCreating",
-    "junie.onboarding.icon.badge.shown": "true",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;SceneCreating&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="E:\Unity\ver\2022.3.62f3\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;E:\un\The nine hundred and ninety-ninth game of FLIPPY BIRD&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="E:\un\The nine hundred and ninety-ninth game of FLIPPY BIRD" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="E:\Unity\ver\2022.3.62f3\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;E:\un\The nine hundred and ninety-ninth game of FLIPPY BIRD&quot; -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="E:\un\The nine hundred and ninety-ninth game of FLIPPY BIRD" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" useMixedMode="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="64e1c2dc-107f-4e6b-af2e-b4827b37b8d8" name="Changes" comment="" />
@@ -55,11 +173,24 @@
       <option name="presentableId" value="Default" />
       <updated>1781427432894</updated>
       <workItem from="1781427436944" duration="59000" />
+      <workItem from="1781601926452" duration="596000" />
+      <workItem from="1781603780816" duration="326000" />
+      <workItem from="1781608597098" duration="695000" />
+      <workItem from="1781700040805" duration="2917000" />
+      <workItem from="1781721759657" duration="1690000" />
+      <workItem from="1781725812990" duration="887000" />
+      <workItem from="1781781482440" duration="7139000" />
+      <workItem from="1781820940940" duration="2027000" />
+      <workItem from="1781860993924" duration="8214000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
     <option name="unityProject" value="true" />
     <option name="unityProjectFolder" value="true" />
   </component>
