@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5852325718593363620}
   - component: {fileID: 508196433882415763}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mesh_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7733044218223655733}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,7 +136,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7338009688524078812}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: hair.01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4719820631138882025}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: hair.02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -198,7 +198,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8147686016802135623}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 590460428804348007}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tail.02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8103494269355125362}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +304,8 @@ GameObject:
   - component: {fileID: 5928824659781614083}
   - component: {fileID: 8971653586219598772}
   - component: {fileID: -3196049659493838613}
-  m_Layer: 0
+  - component: {fileID: 2487769739846952406}
+  m_Layer: 6
   m_Name: Sparrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -391,7 +392,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a3c43c4f99c11f48a37461e8f624c15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _collisionDetector: {fileID: 2487769739846952406}
   _attack: {fileID: 5928824659781614083}
+  _point: 1
 --- !u!114 &5928824659781614083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -406,7 +409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bulletSpawner: {fileID: -3196049659493838613}
   _shootPoint: {fileID: 3252091257889364556}
-  cooldown: 2
+  cooldown: 3
 --- !u!114 &8971653586219598772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -435,6 +438,18 @@ MonoBehaviour:
   _prefab: {fileID: 5267646041023158812, guid: 4041e86ab91f36741a4507d4fb9f6837, type: 3}
   _countPoolObject: 20
   _maximumCountPoolObject: 25
+--- !u!114 &2487769739846952406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4711584060368720845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8183f86aa6a0e46800528a7e9c2732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5693525132557535464
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,7 +459,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4697929373453153509}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wing.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -475,7 +490,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6703793465954935410}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tail.01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,7 +521,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7763636514121456310}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wing.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -537,7 +552,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3252091257889364556}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShootPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}

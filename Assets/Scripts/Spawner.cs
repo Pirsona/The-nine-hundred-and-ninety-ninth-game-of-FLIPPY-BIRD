@@ -9,7 +9,7 @@ public abstract class Spawner<T> : MonoBehaviour where T : MonoBehaviour
 
     private ObjectPool<T> _pool;
     
-    private void Awake()
+    protected virtual void Awake()
     {
         _pool = new ObjectPool<T>(CreateObject, ActivateObject, DeactivateObject, DestroyObject, true, _countPoolObject, _maximumCountPoolObject);
     }

@@ -9,7 +9,12 @@ public class Attack : MonoBehaviour
     
     private bool _isReady = true;
     private Coroutine _coroutine;
-    
+
+    private void OnEnable()
+    {
+        _isReady = true;
+    }
+
     public void Shoot()
     {
         if (!_isReady) return;

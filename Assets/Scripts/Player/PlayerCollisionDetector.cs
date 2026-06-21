@@ -1,18 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class PlayerCollisionDetector : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public event Action OnFatalCollision;
+
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.TryGetComponent(out Bullet bullet) || other.TryGetComponent(out Enemy enemy))
+        {
+            OnFatalCollision?.Invoke();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        if (collision.gameObject.TryGetComponent(out Floor floor))
+        {
+            OnFatalCollision?.Invoke();
+        }
     }
 }

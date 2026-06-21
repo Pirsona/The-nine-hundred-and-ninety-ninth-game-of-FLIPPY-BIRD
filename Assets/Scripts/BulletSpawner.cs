@@ -17,5 +17,4 @@ public class BulletSpawner : Spawner<Bullet>
         
         ReturnObject(bullet);
     }
-    
 }

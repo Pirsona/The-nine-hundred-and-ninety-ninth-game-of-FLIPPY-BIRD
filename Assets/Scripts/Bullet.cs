@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     private const float LifeTime = 3;
     
     [SerializeField] private float _bulletSpeed = 5f;
+    [SerializeField] private BulletCollision _bulletCollision;
     
     private float _speed;
     private Coroutine  _lifeCoroutine;
@@ -24,6 +25,8 @@ public class Bullet : MonoBehaviour
     
     private void OnEnable()
     {
+        _bulletCollision.CollisionWithObject += Die;
+        
         if (_lifeCoroutine != null)
         {
             StopCoroutine(_lifeCoroutine);
@@ -33,10 +36,19 @@ public class Bullet : MonoBehaviour
         _lifeCoroutine  = StartCoroutine(LifeProcees());
     }
 
-
+    private void OnDisable()
+    {
+        _bulletCollision.CollisionWithObject -= Die;
+    }
+    
     private IEnumerator LifeProcees()
     {
         yield return _wait;
+        Die();
+    }
+
+    private void Die()
+    {
         Destroyed?.Invoke(this);
     }
 }

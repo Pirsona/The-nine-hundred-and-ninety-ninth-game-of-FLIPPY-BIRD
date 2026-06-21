@@ -4,14 +4,30 @@ using UnityEngine;
 public class EnemySpawner : Spawner<Enemy>
 {
     [SerializeField] private float _cooldown;
+    [SerializeField] private Score _score;
     
     private WaitForSeconds _wait;
     private bool _isSpawn = true;
-    private void Start()
+    private Coroutine _spawnCoroutine;
+    
+    private void OnEnable()
     {
-        _wait = new WaitForSeconds(_cooldown);
+        _spawnCoroutine = StartCoroutine(Spawn());
+    }
+
+    private void OnDisable()
+    {
+        if (_spawnCoroutine != null)
+        {
+            StopCoroutine(_spawnCoroutine);
+        }
+    }
+
+    protected override void Awake()
+    {
+        base.Awake(); 
         
-        StartCoroutine(Spawn());
+        _wait = new WaitForSeconds(_cooldown);
     }
 
     private IEnumerator Spawn()
@@ -39,11 +55,11 @@ public class EnemySpawner : Spawner<Enemy>
         return positionCube;
     }
 
-    public void ReturnEnemy(Enemy enemy)
+    private void ReturnEnemy(Enemy enemy, int scoreAdd)
     {
         enemy.Destroyed -= ReturnEnemy;
-
+        _score.AddScore(scoreAdd);
+        
         ReturnObject(enemy);
     }
-    
 }
