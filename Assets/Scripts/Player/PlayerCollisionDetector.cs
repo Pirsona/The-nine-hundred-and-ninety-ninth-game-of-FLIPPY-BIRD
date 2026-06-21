@@ -3,13 +3,13 @@ using UnityEngine;
 
 public class PlayerCollisionDetector : MonoBehaviour
 {
-    public event Action OnFatalCollision;
+    public event Action FatalCollision;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.TryGetComponent(out Bullet bullet) || other.TryGetComponent(out Enemy enemy))
         {
-            OnFatalCollision?.Invoke();
+            FatalCollision?.Invoke();
         }
     }
 
@@ -17,7 +17,7 @@ public class PlayerCollisionDetector : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent(out Floor floor))
         {
-            OnFatalCollision?.Invoke();
+            FatalCollision?.Invoke();
         }
     }
 }

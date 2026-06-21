@@ -5,7 +5,7 @@ public class Attack : MonoBehaviour
 {
     [SerializeField] private BulletSpawner _bulletSpawner;
     [SerializeField] private Transform _shootPoint;
-    [SerializeField] private float cooldown;
+    [SerializeField] private float _cooldown;
     
     private bool _isReady = true;
     private Coroutine _coroutine;
@@ -27,12 +27,12 @@ public class Attack : MonoBehaviour
             StopCoroutine(_coroutine);
         }
 
-        StartCoroutine(CoolDown());
+        StartCoroutine(ProcessCooldown());
     }
     
-    IEnumerator CoolDown()
+    IEnumerator ProcessCooldown()
     {
-        yield return new WaitForSeconds(cooldown);
+        yield return new WaitForSeconds(_cooldown);
         _isReady = true;
     }
 }

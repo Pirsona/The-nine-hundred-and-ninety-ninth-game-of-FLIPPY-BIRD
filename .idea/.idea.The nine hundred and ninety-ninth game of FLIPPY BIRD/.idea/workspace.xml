@@ -12,29 +12,13 @@
   <component name="ChangeListManager">
     <list default="true" id="64e1c2dc-107f-4e6b-af2e-b4827b37b8d8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.The nine hundred and ninety-ninth game of FLIPPY BIRD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The nine hundred and ninety-ninth game of FLIPPY BIRD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Place.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Place.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Cat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Cat.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Duck.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Duck.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DuckOriginal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DuckOriginal.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Egg.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Egg.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Place.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Place.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Sparrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Sparrow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attack.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletSpawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Game.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCollisionDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCollisionDetector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PointCollection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PointCollection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerDeath.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +127,7 @@
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "SceneCreating",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",

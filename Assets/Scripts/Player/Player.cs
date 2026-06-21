@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     {
         if (_death.IsDead == false)
         {
-            if (_playerInput.IsShoot)
+            if (_playerInput.IsShooting)
             {            
                 _attack.Shoot();
                 _playerInput.ConsumeShoot();
@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
     {
         if (_death.IsDead == false)
         {
-            if(_playerInput.IsJump)
+            if(_playerInput.IsJumping)
             {
                 _playerMovement.Jump();
                 _playerInput.ConsumeJump();

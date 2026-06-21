@@ -5,8 +5,8 @@ public class PlayerInput : MonoBehaviour
     [SerializeField] private KeyCode _jumpKey = KeyCode.Space;
     [SerializeField] private KeyCode _shootKey = KeyCode.E;
     
-    public bool IsJump { get; private set; } = false;
-    public bool IsShoot { get; private set; } = false;
+    public bool IsJumping { get; private set; } = false;
+    public bool IsShooting { get; private set; } = false;
 
     private void Update()
     {
@@ -17,22 +17,22 @@ public class PlayerInput : MonoBehaviour
     {
         if (Input.GetKeyDown(_jumpKey))
         {
-            IsJump = true;
+            IsJumping = true;
         }
 
         if (Input.GetKeyDown(_shootKey))
         {
-            IsShoot = true;
+            IsShooting = true;
         }
     }
 
     public void ConsumeJump()
     {
-        IsJump = false;
+        IsJumping = false;
     }
 
     public void ConsumeShoot()
     {
-        IsShoot = false;
+        IsShooting = false;
     }
 }

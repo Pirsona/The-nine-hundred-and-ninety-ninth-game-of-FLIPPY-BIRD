@@ -13,14 +13,14 @@ public class Game : MonoBehaviour
 
     private void OnEnable()
     {
-        _death.Daying += LoseGame;
+        _death.Died += LoseGame;
         _startScreen.PlayButtonPressed += StartGame;
         _gameOverScreen.RestartButtonPressed += RestartGame;
     }
 
     private void OnDisable()
     {
-        _death.Daying -= LoseGame;
+        _death.Died -= LoseGame;
         _startScreen.PlayButtonPressed -= StartGame;
         _gameOverScreen.RestartButtonPressed -= RestartGame;
     }

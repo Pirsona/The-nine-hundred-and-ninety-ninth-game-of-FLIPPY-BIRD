@@ -5,18 +5,18 @@ public class PlayerDeath : MonoBehaviour
 {
     [SerializeField] private PlayerCollisionDetector  _detector;
     
-    public event Action Daying;
+    public event Action Died;
     
     public bool IsDead {get; private set;}
     
     private void OnEnable()
     {
-        _detector.OnFatalCollision += Death;
+        _detector.FatalCollision += Death;
     }
 
     private void OnDisable()
     {
-        _detector.OnFatalCollision -= Death;
+        _detector.FatalCollision -= Death;
     }
 
     private void Awake()
@@ -27,7 +27,7 @@ public class PlayerDeath : MonoBehaviour
     private void Death()
     {
         IsDead = true;
-        Daying?.Invoke();
+        Died?.Invoke();
     }
     
     public void Revive()

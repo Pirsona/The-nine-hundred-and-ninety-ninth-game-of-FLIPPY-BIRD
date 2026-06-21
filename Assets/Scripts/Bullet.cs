@@ -33,7 +33,7 @@ public class Bullet : MonoBehaviour
         }
         
         _rigidbody.velocity = transform.forward * _bulletSpeed;
-        _lifeCoroutine  = StartCoroutine(LifeProcees());
+        _lifeCoroutine  = StartCoroutine(LifeProcess());
     }
 
     private void OnDisable()
@@ -41,7 +41,7 @@ public class Bullet : MonoBehaviour
         _bulletCollision.CollisionWithObject -= Die;
     }
     
-    private IEnumerator LifeProcees()
+    private IEnumerator LifeProcess()
     {
         yield return _wait;
         Die();

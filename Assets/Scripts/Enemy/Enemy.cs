@@ -5,11 +5,11 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     private const float LifeTime = 10;
-    private const float StandartWaitTime = 1;
+    private const float StandardTime = 1;
     
     [SerializeField] private EnemyCollisionDetector  _collisionDetector;
     [SerializeField] private Attack _attack;
-    [SerializeField] private int _point;
+    [SerializeField] private int _scoreValue;
     
     private Coroutine _coroutine;
     private WaitForSeconds _wait;
@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
     
     private void Awake()
     {
-        _wait = new WaitForSeconds(StandartWaitTime);
+        _wait = new WaitForSeconds(StandardTime);
     }
 
     private void OnEnable()
@@ -59,6 +59,6 @@ public class Enemy : MonoBehaviour
     private void Death()
     {
         StopCoroutine(_coroutine);
-        Destroyed?.Invoke(this, _point);
+        Destroyed?.Invoke(this, _scoreValue);
     }
 }
