@@ -111,6 +111,8 @@ GameObject:
   - component: {fileID: 6837780232994136677}
   - component: {fileID: 2633529039195946239}
   - component: {fileID: 5652359885125582442}
+  - component: {fileID: 7799586055187419050}
+  - component: {fileID: 3981781420160104139}
   m_Layer: 3
   m_Name: Cat
   m_TagString: Untagged
@@ -176,6 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16faf22ceb35f6a4ca4e6acc30b92f1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _death: {fileID: 3981781420160104139}
   _playerMovement: {fileID: 2633529039195946239}
   _playerInput: {fileID: 9170064504779938258}
   _attack: {fileID: 6837780232994136677}
@@ -207,7 +210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bulletSpawner: {fileID: 5652359885125582442}
   _shootPoint: {fileID: 7000281712038380755}
-  cooldown: 0.7
+  _cooldown: 0.8
 --- !u!114 &2633529039195946239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,6 +239,31 @@ MonoBehaviour:
   _prefab: {fileID: 2392220848830204532, guid: b17983329115fa148a91b68968a2f1c5, type: 3}
   _countPoolObject: 10
   _maximumCountPoolObject: 20
+--- !u!114 &7799586055187419050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249918902334826678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49959f9701f7db34995badb702ac2bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3981781420160104139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249918902334826678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4d3da53a389c5847b165d68ff9895e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _detector: {fileID: 7799586055187419050}
 --- !u!1 &1498570388310763834
 GameObject:
   m_ObjectHideFlags: 0

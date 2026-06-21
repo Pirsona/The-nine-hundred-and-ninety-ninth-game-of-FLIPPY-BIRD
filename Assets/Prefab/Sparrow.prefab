@@ -394,7 +394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _collisionDetector: {fileID: 2487769739846952406}
   _attack: {fileID: 5928824659781614083}
-  _point: 1
+  _scoreValue: 1
 --- !u!114 &5928824659781614083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -409,7 +409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bulletSpawner: {fileID: -3196049659493838613}
   _shootPoint: {fileID: 3252091257889364556}
-  cooldown: 3
+  _cooldown: 2
 --- !u!114 &8971653586219598772
 MonoBehaviour:
   m_ObjectHideFlags: 0
