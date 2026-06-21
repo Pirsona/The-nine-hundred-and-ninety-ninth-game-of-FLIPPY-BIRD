@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="64e1c2dc-107f-4e6b-af2e-b4827b37b8d8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The nine hundred and ninety-ninth game of FLIPPY BIRD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The nine hundred and ninety-ninth game of FLIPPY BIRD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Place.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Place.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Cat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Cat.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Duck.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Duck.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DuckOriginal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DuckOriginal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Egg.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Egg.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Place.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Place.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Sparrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Sparrow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCollisionDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCollisionDetector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PointCollection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PointCollection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_E:/un/The nine hundred and ninety-ninth game of FLIPPY BIRD" value="3F7YAMB2RgeZs4Db9Lt4NKIMDsH" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="2" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlaceAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerDeath.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000003741190147" />
+      <entry key="MS500" value="1.0546022763705891" />
+      <entry key="S2" value="1.7065550830939338" />
+      <entry key="S5" value="2.2987454575672257" />
+      <entry key="S10" value="2.6073843882769774" />
+      <entry key="S30" value="2.858381305418656" />
+      <entry key="S60" value="2.9284829771481053" />
+      <entry key="M2" value="3.040063279502881" />
+      <entry key="M5" value="5.7322600533831825" />
+      <entry key="M10" value="19.478260399536264" />
+      <entry key="M15" value="40.52904432497935" />
+      <entry key="M30" value="113.32369051974702" />
+      <entry key="H1" value="237.01136090421542" />
+      <entry key="H2" value="427.7387054846545" />
+      <entry key="H4" value="697.8871284165424" />
+      <entry key="D1" value="1276.0775356691577" />
+      <entry key="W1" value="1446.504154759326" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="2.821835361761924E-19" />
+      <entry key="MS500" value="1.9992808742640822E-4" />
+      <entry key="S2" value="0.1652142254504388" />
+      <entry key="S5" value="0.7200395310876649" />
+      <entry key="S10" value="1.1950017134705133" />
+      <entry key="S30" value="1.6829357442890263" />
+      <entry key="S60" value="1.8347872457235652" />
+      <entry key="M2" value="1.9544036492227206" />
+      <entry key="M5" value="3.260840813039134" />
+      <entry key="M10" value="8.9513118529325" />
+      <entry key="M15" value="17.018236025012914" />
+      <entry key="M30" value="43.15505006381568" />
+      <entry key="H1" value="85.65877666220973" />
+      <entry key="H2" value="147.26638735084205" />
+      <entry key="H4" value="227.27824313709814" />
+      <entry key="D1" value="387.5347113243954" />
+      <entry key="W1" value="433.53565897379104" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.3950210025858981" />
+      <entry key="MS500" value="0.8842852552315271" />
+      <entry key="S2" value="1.7783532566627107" />
+      <entry key="S5" value="2.914752256043221" />
+      <entry key="S10" value="3.721305992115036" />
+      <entry key="S30" value="4.504240988289969" />
+      <entry key="S60" value="4.743149470196576" />
+      <entry key="M2" value="4.983266999936687" />
+      <entry key="M5" value="8.979556403152904" />
+      <entry key="M10" value="28.4018944601386" />
+      <entry key="M15" value="57.50894966210199" />
+      <entry key="M30" value="156.42700487347898" />
+      <entry key="H1" value="322.6175499064078" />
+      <entry key="H2" value="574.958595432512" />
+      <entry key="H4" value="925.1281011017526" />
+      <entry key="D1" value="1663.6011136928125" />
+      <entry key="W1" value="1880.0380174349787" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3F7YAMB2RgeZs4Db9Lt4NKIMDsH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "SceneCreating",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="E:\Unity\ver\2022.3.62f3\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;E:\un\The nine hundred and ninety-ninth game of FLIPPY BIRD&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="E:\un\The nine hundred and ninety-ninth game of FLIPPY BIRD" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="E:\Unity\ver\2022.3.62f3\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;E:\un\The nine hundred and ninety-ninth game of FLIPPY BIRD&quot; -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="E:\un\The nine hundred and ninety-ninth game of FLIPPY BIRD" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" useMixedMode="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64e1c2dc-107f-4e6b-af2e-b4827b37b8d8" name="Changes" comment="" />
+      <created>1781427432894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781427432894</updated>
+      <workItem from="1781427436944" duration="59000" />
+      <workItem from="1781601926452" duration="596000" />
+      <workItem from="1781603780816" duration="326000" />
+      <workItem from="1781608597098" duration="695000" />
+      <workItem from="1781700040805" duration="2917000" />
+      <workItem from="1781721759657" duration="1690000" />
+      <workItem from="1781725812990" duration="887000" />
+      <workItem from="1781781482440" duration="7139000" />
+      <workItem from="1781820940940" duration="2027000" />
+      <workItem from="1781860993924" duration="11266000" />
+      <workItem from="1781880422232" duration="5223000" />
+      <workItem from="1782028172872" duration="4449000" />
+      <workItem from="1782053961826" duration="6538000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
