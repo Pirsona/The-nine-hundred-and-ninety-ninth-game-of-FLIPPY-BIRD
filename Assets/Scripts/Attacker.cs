@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class Attack : MonoBehaviour
+public class Attacker : MonoBehaviour
 {
     [SerializeField] private BulletSpawner _bulletSpawner;
     [SerializeField] private Transform _shootPoint;
@@ -30,7 +30,7 @@ public class Attack : MonoBehaviour
         StartCoroutine(ProcessCooldown());
     }
     
-    IEnumerator ProcessCooldown()
+    private IEnumerator ProcessCooldown()
     {
         yield return new WaitForSeconds(_cooldown);
         _isReady = true;

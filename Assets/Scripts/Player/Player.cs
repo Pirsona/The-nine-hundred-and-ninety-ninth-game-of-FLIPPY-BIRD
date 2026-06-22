@@ -1,11 +1,12 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Player : MonoBehaviour
 {
     [SerializeField] private PlayerDeath _death;
     [SerializeField] private PlayerMovement _playerMovement;
     [SerializeField] private PlayerInput _playerInput;
-    [SerializeField] private Attack _attack;
+    [SerializeField] private Attacker _attacker;
     
     private void Update()
     {
@@ -13,7 +14,7 @@ public class Player : MonoBehaviour
         {
             if (_playerInput.IsShooting)
             {            
-                _attack.Shoot();
+                _attacker.Shoot();
                 _playerInput.ConsumeShoot();
             }
         }

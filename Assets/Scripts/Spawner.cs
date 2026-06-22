@@ -3,15 +3,15 @@ using UnityEngine.Pool;
 
 public abstract class Spawner<T> : MonoBehaviour where T : MonoBehaviour
 {
-    [SerializeField] private protected T _prefab;
-    [SerializeField] private protected int _countPoolObject;
-    [SerializeField] private protected int _maximumCountPoolObject;
+    [SerializeField] private protected T Prefab;
+    [SerializeField] private protected int CountPoolObject;
+    [SerializeField] private protected int MaximumCountPoolObject;
 
     private ObjectPool<T> _pool;
     
     protected virtual void Awake()
     {
-        _pool = new ObjectPool<T>(CreateObject, ActivateObject, DeactivateObject, DestroyObject, true, _countPoolObject, _maximumCountPoolObject);
+        _pool = new ObjectPool<T>(CreateObject, ActivateObject, DeactivateObject, DestroyObject, true, CountPoolObject, MaximumCountPoolObject);
     }
 
     private protected void ReturnObject(T obj)
@@ -21,7 +21,7 @@ public abstract class Spawner<T> : MonoBehaviour where T : MonoBehaviour
 
     private T CreateObject()
     {
-        T obj = Instantiate(_prefab);
+        T obj = Instantiate(Prefab);
         
         return obj;
     }

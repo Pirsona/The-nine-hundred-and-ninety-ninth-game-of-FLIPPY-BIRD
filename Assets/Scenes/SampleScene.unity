@@ -1179,9 +1179,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ff049b6b160fae4f991097f4c2ffde2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _prefab: {fileID: 381368119135708108, guid: 3d4280007de4b6e4291a014b4dceddb7, type: 3}
-  _countPoolObject: 10
-  _maximumCountPoolObject: 20
+  Prefab: {fileID: 381368119135708108, guid: 3d4280007de4b6e4291a014b4dceddb7, type: 3}
+  CountPoolObject: 10
+  MaximumCountPoolObject: 20
   _cooldown: 3
   _score: {fileID: 1187053568}
 --- !u!1 &1693549548
@@ -1775,11 +1775,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5652359885125582442, guid: a5d1d1c1529ae7340b124ac32e744ebc, type: 3}
+      propertyPath: Prefab
+      value: 
+      objectReference: {fileID: 2392220848830204532, guid: b17983329115fa148a91b68968a2f1c5, type: 3}
+    - target: {fileID: 5652359885125582442, guid: a5d1d1c1529ae7340b124ac32e744ebc, type: 3}
+      propertyPath: CountPoolObject
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652359885125582442, guid: a5d1d1c1529ae7340b124ac32e744ebc, type: 3}
+      propertyPath: MaximumCountPoolObject
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906550532432702832, guid: a5d1d1c1529ae7340b124ac32e744ebc, type: 3}
+      propertyPath: _attacker
+      value: 
+      objectReference: {fileID: 975004752375387715}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5d1d1c1529ae7340b124ac32e744ebc, type: 3}
+--- !u!114 &975004752375387715 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6837780232994136677, guid: a5d1d1c1529ae7340b124ac32e744ebc, type: 3}
+  m_PrefabInstance: {fileID: 975004752375387714}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7cd4ab2496f8b4eb25820fb13bdd5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &975004752375387728 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3981781420160104139, guid: a5d1d1c1529ae7340b124ac32e744ebc, type: 3}

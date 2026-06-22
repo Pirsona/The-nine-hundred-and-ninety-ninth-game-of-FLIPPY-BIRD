@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Enemy : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class Enemy : MonoBehaviour
     private const float StandardTime = 1;
     
     [SerializeField] private EnemyCollisionDetector  _collisionDetector;
-    [SerializeField] private Attack _attack;
+    [SerializeField] private Attacker _attacker;
     [SerializeField] private int _scoreValue;
     
     private Coroutine _coroutine;
@@ -48,7 +49,7 @@ public class Enemy : MonoBehaviour
         {
             currentTime -= Time.deltaTime;
             
-            _attack.Shoot();
+            _attacker.Shoot();
             
             yield return null;
         }

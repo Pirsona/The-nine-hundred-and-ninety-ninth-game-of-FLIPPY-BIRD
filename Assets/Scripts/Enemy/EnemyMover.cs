@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class EnemyMove : MonoBehaviour
+public class EnemyMover : MonoBehaviour
 {
     [SerializeField] private float _enemySpeed = 5f;
 

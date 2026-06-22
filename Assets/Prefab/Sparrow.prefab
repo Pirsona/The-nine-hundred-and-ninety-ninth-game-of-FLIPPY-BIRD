@@ -393,7 +393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _collisionDetector: {fileID: 2487769739846952406}
-  _attack: {fileID: 5928824659781614083}
+  _attacker: {fileID: 5928824659781614083}
   _scoreValue: 1
 --- !u!114 &5928824659781614083
 MonoBehaviour:
@@ -435,9 +435,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e62f9f7de70e2f0469a84df97d08f9e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _prefab: {fileID: 5267646041023158812, guid: 4041e86ab91f36741a4507d4fb9f6837, type: 3}
-  _countPoolObject: 20
-  _maximumCountPoolObject: 25
+  Prefab: {fileID: 5267646041023158812, guid: 4041e86ab91f36741a4507d4fb9f6837, type: 3}
+  CountPoolObject: 10
+  MaximumCountPoolObject: 20
 --- !u!114 &2487769739846952406
 MonoBehaviour:
   m_ObjectHideFlags: 0

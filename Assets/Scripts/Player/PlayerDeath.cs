@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class PlayerDeath : MonoBehaviour
 {
-    [SerializeField] private PlayerCollisionDetector  _detector;
-    
     public event Action Died;
+    
+    [SerializeField] private PlayerCollisionDetector  _detector;
     
     public bool IsDead {get; private set;}
     
@@ -28,10 +28,5 @@ public class PlayerDeath : MonoBehaviour
     {
         IsDead = true;
         Died?.Invoke();
-    }
-    
-    public void Revive()
-    {
-        IsDead = false;
     }
 }
